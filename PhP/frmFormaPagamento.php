@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Cadastro de Categoria</title>
+<title>Cadastro de Forma de Pagamento</title>
 <style>
 
 A {
@@ -135,7 +135,7 @@ COLOR:000000;
 					<td colspan="2">  <!--<img src="../images/slogan.jpg" border="0" width="800" height="110" alt=""> -->
 						<div id="divLogo" width="800" height="110">
 							<br>
-							<span id="titulo"><center>Cadastro de Categoria</center></span>
+							<span id="titulo"><center>Cadastro de Forma de Pagamento</center></span>
 						</div>
 					</td>
 				</tr>
@@ -191,21 +191,14 @@ COLOR:000000;
 								<tr>
 									<td>Código</td> <td><input type="text" id="txtCodigo" name="txtCodigo" disabled size="10px"></td>
 								<tr>
-								
-								<tr>
-									<td>Nome</td> <td><input type="text" id="txtNome" name="txtNome" size="40px"></td>
-								<tr>
-								
 								<tr>
 									<td>Descrição</td> <td><input type="text" id="txtDescricao" name="txtDescricao" size="61px"></td>
+								<tr>								
 								<tr>
-								
+									<td>N° Parcelas</td> <td><input type="text" id="txtNumParcelas" name="txtNumParcelas" size="10px"></td>
+								<tr>								
 								<tr>
-									<td>Palavras<br>Chave</td> <td><textarea id="txtPalavraChave" name="txtPalavraChave" rows="4" cols="47"></textarea></td>
-								<tr>
-								
-								<tr>
-									<td>Nº Ordem</td> <td><input type="text" id="txtOrdem" name="txtOrdem" size="10px"></td>
+									<td>% Juros</td> <td><input type="text" id="txtPercJuros" name="txtPercJuros" size="10px"></td>
 								<tr>
 							</table>
 						</form>
@@ -216,18 +209,16 @@ COLOR:000000;
 					<td colspan="2">
 						<table id="tabResult">
 							<tr style="background-color: darkblue; font-weight: bold;">
-								<td style="width:50px; color: white;">Código</td>
-								<td style="width:150px; color: white;">Nome</td>
-								<td style="width:240px; color: white;">Descrição</td>
-								<td style="width:230px; color: white;">Palavras Chave</td>
-								<td style="color: white;">Nº Ordem</td>
+								<td style="width:50px; color: white;">Código</td>								
+								<td style="width:550px; color: white;">Descrição</td>
+								<td style="width:70px; color: white;">N° Parcelas</td>
+								<td style="width:50px; color: white;">% Juros</td>								
 							</tr>
 							<tr>
 								<td>aaaaa</td>
 								<td>aaaa</td>
 								<td>aaaaa</td>
-								<td>aaaaa</td>
-								<td>aaaaa</td>
+								<td>aaaaa</td>								
 							</tr>
 						</table>
 					</td>
