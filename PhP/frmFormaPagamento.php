@@ -119,6 +119,71 @@ COLOR:000000;
 	border:1px solid black;
 }
 
+#box-table-a {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+
+text-align: left;
+border-collapse: collapse;
+margin: 20px;
+}
+
+#box-table-a th {
+font-size: 13px;
+font-weight: normal;
+background: #b9c9fe;
+border-top: 4px solid #aabcfe;
+border-bottom: 1px solid #fff;
+color: #039;
+padding: 8px;
+}
+
+#box-table-a tr:hover td {
+background: #d0dafd;
+color: #339;
+}
+
+#box-table-a td {
+background: #e8edff;
+border-bottom: 1px solid #fff;
+color: #669;
+border-top: 1px solid transparent;
+padding: 8px;
+}
+
+#box-table-b {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+text-align: center;
+border-collapse: collapse;
+border-top: 7px solid #9baff1;
+border-bottom: 7px solid #9baff1;
+margin: 20px;
+}
+
+#box-table-b th {
+font-size: 13px;
+font-weight: normal;
+background: #e8edff;
+border-right: 1px solid #9baff1;
+border-left: 1px solid #9baff1;
+color: #039;
+padding: 8px;
+}
+
+#box-table-b td {
+background: #e8edff;
+border-right: 1px solid #aabcfe;
+border-left: 1px solid #aabcfe;
+color: #669;
+padding: 8px;
+}
+
+#box-table-b tr:hover td {
+background: #d0dafd;
+color: #339;
+}
+
 </style>
 </head>
 
@@ -207,19 +272,39 @@ COLOR:000000;
 				
 				<tr>
 					<td colspan="2">
-						<table id="tabResult">
-							<tr style="background-color: darkblue; font-weight: bold;">
-								<td style="width:50px; color: white;">Código</td>								
-								<td style="width:550px; color: white;">Descrição</td>
-								<td style="width:70px; color: white;">N° Parcelas</td>
-								<td style="width:50px; color: white;">% Juros</td>								
+						<table id="box-table-b">
+							<tr>
+								<th scope="col" style="width:50px;">Código</th>								
+								<th scope="col" style="width:550px;">Descrição</th>
+								<th scope="col" style="width:70px;">N° Parcelas</th>
+								<th scope="col" style="width:50px;">% Juros</th>								
+							</tr>
+							<tbody>
+							<tr>
+							<td>1</td>
+							<td>Stephen C. Cox</td>
+							<td>$300</td>
+							<td>$50</td>							
 							</tr>
 							<tr>
-								<td>aaaaa</td>
-								<td>aaaa</td>
-								<td>aaaaa</td>
-								<td>aaaaa</td>								
+							<td>2</td>
+							<td>Josephin Tan</td>
+							<td>$150</td>
+							<td>-</td>							
 							</tr>
+							<tr>
+							<td>3</td>
+							<td>Joyce Ming</td>
+							<td>$200</td>
+							<td>$35</td>							
+							</tr>
+							<tr>
+							<td>4</td>
+							<td>James A. Pentel</td>
+							<td>$175</td>
+							<td>$25</td>							
+							</tr>
+							</tbody>
 						</table>
 					</td>
 				<tr>
