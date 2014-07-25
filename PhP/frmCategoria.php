@@ -108,15 +108,38 @@ COLOR:000000;
 	margin-top:35px;
 }
 
-#tabResult{
-	border:1px solid black;
-	border-collapse: collapse;
-	margin-left:4%;
-	margin-top:20px;
+#box-table-b {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+text-align: center;
+border-collapse: collapse;
+border-top: 7px solid #9baff1;
+border-bottom: 7px solid #9baff1;
+margin: 20px;
 }
 
-#tabResult td{
-	border:1px solid black;
+#box-table-b th {
+font-size: 13px;
+font-weight: normal;
+background: #e8edff;
+border-right: 1px solid #9baff1;
+border-left: 1px solid #9baff1;
+border-bottom: 1px solid #aabcfe;
+color: #039;
+padding: 8px;
+}
+
+#box-table-b td {
+background: #e8edff;
+border-right: 1px solid #aabcfe;
+border-left: 1px solid #aabcfe;
+color: #669;
+padding: 8px;
+}
+
+#box-table-b tr:hover td {
+background: #d0dafd;
+color: #339;
 }
 
 </style>
@@ -214,18 +237,18 @@ COLOR:000000;
 				
 				<tr>
 					<td colspan="2">
-						<table id="tabResult">
-							<tr style="background-color: darkblue; font-weight: bold;">
-								<td style="width:50px; color: white;">Código</td>
-								<td style="width:150px; color: white;">Nome</td>
-								<td style="width:240px; color: white;">Descrição</td>
-								<td style="width:230px; color: white;">Palavras Chave</td>
-								<td style="color: white;">Nº Ordem</td>
+						<table id="box-table-b">
+							<tr>
+								<th scope="col" style="width:50px;">Código</th>								
+								<th scope="col" style="width:150px;">Nome</th>
+								<th scope="col" style="width:240px;">Descrição</th>
+								<th scope="col" style="width:230px;">Palavras Chave</th>	
+								<th scope="col">Nº Ordem</th>	
 							</tr>
 							<tr>
 								<td>aaaaa</td>
 								<td>aaaa</td>
-								<td>aaaaa</td>
+								<td style="text-align: left;">aaaaa</td>
 								<td>aaaaa</td>
 								<td>aaaaa</td>
 							</tr>
