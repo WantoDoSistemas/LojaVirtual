@@ -233,34 +233,44 @@ color: #339;
 						<table id="box-table-b">
 							<tr>
 								<th scope="col" style="width:50px;">Código</th>								
-								<th scope="col" style="width:550px;">Descrição</th>
-								<th scope="col" style="width:70px;">N° Parcelas</th>
-								<th scope="col" style="width:50px;">% Juros</th>								
+								<th scope="col" style="width:500px;">Descrição</th>
+								<th scope="col" style="width:100px;">N° Parcelas</th>
+								<th scope="col" style="width:50px;">% Juros</th>
+								<th scope="col"></th>	
+								<th scope="col"></th>	
 							</tr>
 							<tbody>
 							<tr>
-							<td>1</td>
-							<td style="text-align: left;">Stephen C. Cox</td>
-							<td>$300</td>
-							<td>$50</td>							
+								<td>1</td>
+								<td style="text-align: left;">Stephen C. Cox</td>
+								<td>$300</td>
+								<td>$50</td>
+								<td><img src="../images/edit.png"></td>
+								<td><img src="../images/delete.png"></td>	
 							</tr>
 							<tr>
-							<td>2</td>
-							<td style="text-align: left;">Josephin Tan</td>
-							<td>$150</td>
-							<td>-</td>							
+								<td>2</td>
+								<td style="text-align: left;">Josephin Tan</td>
+								<td>$150</td>
+								<td>-</td>		
+								<td><img src="../images/edit.png"></td>
+								<td><img src="../images/delete.png"></td>	
 							</tr>
 							<tr>
-							<td>3</td>
-							<td style="text-align: left;">Joyce Ming</td>
-							<td>$200</td>
-							<td>$35</td>							
+								<td>3</td>
+								<td style="text-align: left;">Joyce Ming</td>
+								<td>$200</td>
+								<td>$35</td>	
+								<td><img src="../images/edit.png"></td>
+								<td><img src="../images/delete.png"></td>	
 							</tr>
 							<tr>
-							<td>4</td>
-							<td style="text-align: left;">James A. Pentel</td>
-							<td>$175</td>
-							<td>$25</td>							
+								<td>4</td>
+								<td style="text-align: left;">James A. Pentel</td>
+								<td>$175</td>
+								<td>$25</td>
+								<td><img src="../images/edit.png"></td>
+								<td><img src="../images/delete.png"></td>	
 							</tr>
 							</tbody>
 						</table>

@@ -241,16 +241,18 @@ color: #339;
 							<tr>
 								<th scope="col" style="width:50px;">Código</th>								
 								<th scope="col" style="width:150px;">Nome</th>
-								<th scope="col" style="width:240px;">Descrição</th>
-								<th scope="col" style="width:230px;">Palavras Chave</th>	
-								<th scope="col">Nº Ordem</th>	
+								<th scope="col" style="width:340px;">Descrição</th>								
+								<th scope="col" style="width:70px;">Nº Ordem</th>	
+								<th scope="col"></th>	
+								<th scope="col"></th>
 							</tr>
 							<tr>
 								<td>aaaaa</td>
 								<td>aaaa</td>
-								<td style="text-align: left;">aaaaa</td>
-								<td>aaaaa</td>
-								<td>aaaaa</td>
+								<td style="text-align: left;">aaaaa</td>								
+								<td>1</td>
+								<td><img src="../images/edit.png"></td>
+								<td><img src="../images/delete.png"></td>	
 							</tr>
 						</table>
 					</td>
