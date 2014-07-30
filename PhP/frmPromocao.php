@@ -220,7 +220,7 @@ color: #339;
 								<tr>
 								
 								<tr>
-									<td>Descrição</td> <td><textarea id="txtDescricao" name="txtDescricao" rows="4" cols="47"></textarea></td>
+									<td>Descrição</td> <td><textarea id="txtDescricao" name="txtDescricao" rows="4" cols="29"></textarea></td>
 								<tr>
 								
 								<tr>
@@ -234,11 +234,15 @@ color: #339;
 								<tr>
 									<td>Inicio</td> <td><input type="text" id="txtDtInicio" name="txtDtInicio" size="20px"></td>	
 									<td>Fim</td> <td><input type="text" id="txtDtFim" name="txtDtFim" size="20px"></td>		
-								<tr>	
+								<tr>																		
 								
 								<tr>
 									<td>Ativo</td> <td><input type="checkbox" id="chkStatus" name="chkStatus" value="Ativo"></td>
 								<tr>
+									
+								<tr>
+									<td>Produto(s):</td> <td><a href="#"><img src="../images/find.ico"></a></td>		
+								<tr>	
 							</table>
 						</form>
 					</td>
