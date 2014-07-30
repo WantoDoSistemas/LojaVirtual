@@ -88,26 +88,20 @@ color: #339;
 						<table id="box-table-b">
 							<tr>
 								<th scope="col" style="width:50px;">Código</th>								
-								<th scope="col" style="width:600px;">Produto</th>
-								<th scope="col" style="width:50px;">Quantidade</th>
-								<th scope="col"></th>	
-								<th scope="col"></th>	
+								<th scope="col" style="width:640px;">Produto</th>
+								<th scope="col" style="width:50px;">Quantidade</th>								
 							</tr>
 							<tbody>
 							<tr>
 								<td>1</td>
 								<td style="text-align: left;">Mesa Branca Madeira</td>
-								<td>1</td>
-								<td><img src="../images/edit.png"></td>
-								<td><img src="../images/delete.png"></td>	
+								<td>1</td>								
 							</tr>	
 							<tr>
 								<td>2</td>
 								<td style="text-align: left;">Cadeira Branca Madeira</td>
-								<td>4</td>
-								<td><img src="../images/edit.png"></td>
-								<td><img src="../images/delete.png"></td>	
-							</tr>						
+								<td>4</td>									
+							</tr>					
 							</tbody>
 						</table>						
 					</td>

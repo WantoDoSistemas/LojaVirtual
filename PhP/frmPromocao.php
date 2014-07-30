@@ -213,36 +213,39 @@ color: #339;
 							<table id=tabForm>
 								<tr>
 									<td>Código</td> <td><input type="text" id="txtCodigo" name="txtCodigo" disabled size="10px"></td>
-								<tr>
+								</tr>
 								
 								<tr>
 									<td>Nome</td> <td><input type="text" id="txtNome" name="txtNome" size="40px"></td>									
-								<tr>
+								</tr>
 								
 								<tr>
 									<td>Descrição</td> <td><textarea id="txtDescricao" name="txtDescricao" rows="4" cols="29"></textarea></td>
-								<tr>
+								</tr>
 								
 								<tr>
 									<td>Valor</td> <td><input type="text" id="txtValor" name="txtValor" size="40px"> reais</td>
-								<tr>
+								</tr>
 								
 								<tr>
 									<td>Imagem</td> <td><input type="file" name="path" size="50"></td>		
-								<tr>
+								</tr>
 									
 								<tr>
-									<td>Inicio</td> <td><input type="text" id="txtDtInicio" name="txtDtInicio" size="20px"></td>	
-									<td>Fim</td> <td><input type="text" id="txtDtFim" name="txtDtFim" size="20px"></td>		
-								<tr>																		
+									<td>Inicio</td> <td><input type="text" id="txtDtInicio" name="txtDtInicio" size="20px"></td>										
+								</tr>	
+
+								<tr>
+									<td>Fim</td> <td><input type="text" id="txtDtFim" name="txtDtFim" size="20px"></td>	
+								</tr>
 								
 								<tr>
 									<td>Ativo</td> <td><input type="checkbox" id="chkStatus" name="chkStatus" value="Ativo"></td>
-								<tr>
+								</tr>
 									
 								<tr>
 									<td>Produto(s):</td> <td><a href="#"><img src="../images/find.ico"></a></td>		
-								<tr>	
+								</tr>	
 							</table>
 						</form>
 					</td>
