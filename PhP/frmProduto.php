@@ -289,7 +289,7 @@ color: #339;
 										<select id="cmbTipoEntrega" name="cmbTipoEntrega">
 											<option value=""></option>
 											<option value="Correio">Correio</option>
-											<option value="Transportadora">Transportador</option>
+											<option value="Transportadora">Transportadora</option>
 										</select>
 									</td>
 								</tr>
