@@ -220,7 +220,7 @@ color: #339;
 								</tr>
 								
 								<tr>
-									<td>Categoria</td> <td><img src="../images/add_list.png"></td>
+									<td>Categoria</td> <td><a href="frmProdutoCategoria.php" target="_blank"><img src="../images/add_list.png"></a></td>
 								</tr>
 								
 								<tr>
