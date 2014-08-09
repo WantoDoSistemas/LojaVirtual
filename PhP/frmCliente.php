@@ -142,6 +142,14 @@ background: #d0dafd;
 color: #339;
 }
 
+.frame{
+	width:60%;
+	margin-left:20%;
+	margin-top:10px;
+	border-color:#B0C4DE;
+	color:#B0C4DE;
+}
+
 </style>
 </head>
 
@@ -228,15 +236,86 @@ color: #339;
 								</tr>								
 							</table>
 							
-							<frameset frameborder="YES" border="1">	
-								<frame>
-								<table id=tabEnderecoRes class="tabForm">
+							<fieldset class="frame">	
+								<legend>Endereço Residencial</legend>
+								<table id=tabEnderecoRes>
 									<tr>
-										<td>Endereço</td>
+										<td>CEP</td> <td><input type="text" id="txtCepRes" name="txtCepRes" size="20px"></td>
 									</tr>
-								</table>
-								</frame>
-							</frameset>
+									
+									<tr>
+										<td>UF</td> <td><input type="text" id="txtUfRes" name="txtUfRes" size="5px"></td>
+									</tr>
+									
+									<tr>
+										<td>Cidade</td> <td><input type="text" id="txtCidadeRes" name="txtCidadeRes" size="64px"></td>
+									</tr>									
+								
+									<tr>
+										<td>Endereço</td> <td><input type="text" id="txtEndRes" name="txtEndRes" size="64px"></td>
+									</tr>
+									
+									<tr>
+										<td>Número</td> <td><input type="text" id="txtNumeroRes" name="txtNumeroRes" size="20px"></td>
+									</tr>
+									
+									<tr>
+										<td>Complemento</td> <td><input type="text" id="txtComplementoRes" name="txtComplementoRes" size="64px"></td>
+									</tr>									
+								</table>								
+							</fieldset>
+							
+							<fieldset class="frame">	
+								<legend>Endereço Entrega</legend>
+								<table id=tabEnderecoEntrega>
+									<tr>
+										<td>CEP</td> <td><input type="text" id="txtCepEntrega" name="txtCepEntrega" size="20px"></td>
+									</tr>
+									
+									<tr>
+										<td>UF</td> <td><input type="text" id="txtUfEntrega" name="txtUfEntrega" size="5px"></td>
+									</tr>
+									
+									<tr>
+										<td>Cidade</td> <td><input type="text" id="txtCidadeEntrega" name="txtCidadeEntrega" size="64px"></td>
+									</tr>									
+								
+									<tr>
+										<td>Endereço</td> <td><input type="text" id="txtEndEntrega" name="txtEndEntrega" size="64px"></td>
+									</tr>
+									
+									<tr>
+										<td>Número</td> <td><input type="text" id="txtNumeroEntrega" name="txtNumeroEntrega" size="20px"></td>
+									</tr>
+									
+									<tr>
+										<td>Complemento</td> <td><input type="text" id="txtComplementoEntrega" name="txtComplementoEntrega" size="64px"></td>
+									</tr>									
+								</table>								
+							</fieldset>
+							
+							<table id=tabForm2 class="tabForm" style="margin-top:10px;">
+								<tr>
+									<td>Tel. Res.</td> <td><input type="text" id="txtTelRes" name="txtTelRes" disabled size="20px"></td>
+								</tr>
+								
+								<tr>
+									<td>Tel. Com.</td> <td><input type="text" id="txtTelCom" name="txtTelCom" size="20px"></td>
+								</tr>
+								
+								<tr>
+									<td>Celular</td><td><input type="text" id="txtCelular" name="txtCelular" size="20px"></td>
+								</tr>
+								
+								<tr>
+									<td>Data Nasc.</td> <td><input type="text" id="txtDataNescimento" name="txtDataNescimento" size="30px"></td>
+								</tr>	
+
+								<tr>
+									<td>Ativo</td> <td><input type="checkbox" id="chkAtivo" name="chkAtivo" value="Ativo"></td>
+								<tr>								
+							</table>
+							
 						</form>
 					</td>
 				</tr>
@@ -247,20 +326,18 @@ color: #339;
 							<tr>
 								<th scope="col" style="width:50px;">Código</th>								
 								<th scope="col" style="width:230px;">Nome</th>
-								<th scope="col" style="width:90px;">Valor custo</th>
-								<th scope="col" style="width:90px;">Valor venda</th>	
-								<th scope="col" style="width:60px;">ICMS</th>
-								<th scope="col" style="width:80px;">Tipo entrega</th>
+								<th scope="col" style="width:100px;">Usuário</th>
+								<th scope="col" style="width:230px;">Email</th>	
+								<th scope="col" style="width:60px;">Status</th>								
 								<th scope="col"></th>	
 								<th scope="col"></th>
 							</tr>
 							<tr>
 								<td>0001</td>
-								<td style="text-align: left;">Cadeira</td>
-								<td>100,00</td>
-								<td>150,00</td>
-								<td>5,23</td>
-								<td>Transportadora</td>								
+								<td style="text-align: left;">Gabriel</td>
+								<td>JOSEGSG</td>
+								<td>teste@teste.com.br</td>
+								<td>Ativo</td>														
 								<td><img src="../images/edit.png"></td>
 								<td><img src="../images/delete.png"></td> 
 							</tr>
