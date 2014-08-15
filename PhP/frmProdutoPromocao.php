@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Produto Promoção</title>
+<title>Produtos</title>
 <style>
 
 A {
@@ -158,7 +158,7 @@ color: #339;
 					<td colspan="2">  <!--<img src="../images/slogan.jpg" border="0" width="800" height="110" alt=""> -->
 						<div id="divLogo" width="800" height="110">
 							<br>
-							<span id="titulo"><center>Produto Promoção</center></span>
+							<span id="titulo"><center>Produtos</center></span>
 						</div>
 					</td>
 				</tr>

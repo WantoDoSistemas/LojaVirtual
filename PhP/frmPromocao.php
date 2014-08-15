@@ -244,7 +244,7 @@ color: #339;
 								</tr>
 									
 								<tr>
-									<td>Produto(s):</td> <td><a href="#"><img src="../images/find.ico"></a></td>		
+									<td>Produto(s)</td> <td><a href="frmProdutoPromocao.php" target="_blank"><img src="../images/add_list.png"></a></td>
 								</tr>	
 							</table>
 						</form>
